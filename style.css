@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: none;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+}
+body{
+    border: 4px solid black;
+}
+.divCard{
+    width: 80px;
+    height: 120px;
+    display: inline-block;
+    margin-left: 13px;
+    margin-bottom: 5px;
+    /* margin: 20px; */
+}
+img{
+    width: 80px;
+    height: 120px;
+}
+img:hover{
+    opacity: 0.5;
+}
+.win{
+        visibility: hidden;
+        width: 70vw;
+        height: 50vw;
+        margin-left: 15vw;
+        margin-top: 25vh;
+        background-color: rgb(255, 168, 185);
+}
